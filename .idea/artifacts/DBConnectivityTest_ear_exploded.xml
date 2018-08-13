@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="DBConnectivityTest:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBConnectivityTest_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DBConnectivityTest/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

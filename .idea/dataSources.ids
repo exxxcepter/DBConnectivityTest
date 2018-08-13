@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="PostgreSQL - postgres@localhost" uuid="201fa80d-0d8b-4fc2-be12-3fe1d1727959">
+    <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <schema name="public" catalog="postgres"/>
+    <table name="testtable" schema="public" catalog="postgres" type="TABLE">
+      <column name="test1" sqlType="varchar" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="test2" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
+  </data-source>
+</component>

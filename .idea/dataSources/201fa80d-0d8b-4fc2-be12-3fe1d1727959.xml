@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="PostgreSQL - postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.9">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <Visible>1</Visible>
+    </schema>
+    <table id="4" parent="3" name="testtable"/>
+    <column id="5" parent="4" name="test1">
+      <DataType>varchar(20)|12s</DataType>
+    </column>
+    <column id="6" parent="4" name="test2">
+      <DataType>int4(10)|4s</DataType>
+    </column>
+  </database-model>
+</dataSource>
